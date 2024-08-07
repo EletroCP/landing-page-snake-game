@@ -1,5 +1,7 @@
-function ButtonMenu (){
-    return (<input type= "button" value= "BOTAO 1"></input>)
+function ButtonMenu () {
+    return (<p>
+        
+    </p>);
 }
 
-export default ButtonMenu
+export default ButtonMenu;

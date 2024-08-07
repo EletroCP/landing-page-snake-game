@@ -1,5 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+
 .App {
   text-align: center;
+}
+#Menu {
+  display: flex; 
+  justify-content: center;
+  padding-top: 6.5vh;
+}
+
+.textMenuStyle {
+  font-size: large;
+  font-weight: bold;
+  font-family: 'comic-sans', sans-serif;
+  cursor: pointer;
+}
+
+.menuStyle{
+  width: 30vw;
+  height: 3.5vw;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 15px;
+  background-color: #4aeba1;
+  align-items: center;
+  padding: 0px 26px;
+  position: fixed;
+  
+}
+
+#loginButton {
+  background-color: burlywood;
+  width: 5.4vw;
+  height: 3vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+#loginButton:hover {
+  color: white;
+  background-color: chocolate;
+  width: 5.4vw;
+  height: 3vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+
 }
 
 .App-logo {
@@ -35,4 +93,5 @@
   to {
     transform: rotate(360deg);
   }
+}
 }
